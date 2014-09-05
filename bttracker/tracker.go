@@ -40,7 +40,7 @@ func main() {
 	)
 
 	if debug {
-		logger.Level = logrus.Debug
+		logger.Level = logrus.DebugLevel
 	}
 
 	if redisAddr != "" {
